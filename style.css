@@ -1,0 +1,46 @@
+body {
+    color: blue;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  form {
+    color: red;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  label {
+    color: purple;
+    margin-bottom: 8px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  header,main,aside,footer{
+    padding:20px ;
+    text-align: center;
+    background-color:aqua;
+    color: white;
+  }
+
+
+  .container{
+    display: flex;
+  }
+
+  main{
+    flex: 2;
+  }
+
+  aside{
+    flex: 1;
+    border-left: 1px solid bisque;
+    background-color: brown;
+  }
