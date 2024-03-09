@@ -7,7 +7,7 @@ body {
   form {
     color: red;
     max-width: 400px;
-    margin: auto;
+        margin: auto;
   }
 
   label {
